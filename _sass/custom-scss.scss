@@ -10,5 +10,5 @@
 .post-excerpt-home table,
 .post-nav table {
   @extend .table;
-  @extend .table-bordered;
+  // @extend .table-bordered;
 }
