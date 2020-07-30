@@ -17,7 +17,7 @@ num_home_posts: 5
 color: blue
 
 # Show navigation below each post?
-show_post_navs: false
+show_post_navs: true
 
 # Hides the sidebar.
 # You can also hide the sidebar by setting hide_sidebar: true on
