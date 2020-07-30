@@ -1,5 +1,5 @@
 ---
-title: 'Frontpage'
+title: 'Jekyllrb Frontpage'
 ---
 Click to read more...  
    
