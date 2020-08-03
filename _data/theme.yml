@@ -19,7 +19,7 @@ color: blue
 # Show navigation below each post?
 show_post_navs: true
 
-# Hides the sidebar.
-# You can also hide the sidebar by setting hide_sidebar: true on
+# Hides the author_bar.
+# You can also hide the author_bar by setting hide_author_bar: true on
 # the YAML front matter for each page.
-hide_sidebar: false
+hide_author_bar: false
