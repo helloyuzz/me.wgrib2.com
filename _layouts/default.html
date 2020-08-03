@@ -46,7 +46,7 @@
     </div>
     <div class="container">
       <div class="row">
-        {% if page.hide_sidebar or site.data.theme.hide_sidebar %}
+        {% if page.hide_author_bar or site.data.theme.hide_author_bar %}
           <div class="col-sm-12">
             {{ content }}
           </div>
@@ -55,7 +55,7 @@
             {{ content }}
           </div>
           <div class="col-sm-4">
-            {% include sidebar.html %}
+            {% include author_bar.html %}
           </div>
         {% endif %}
       </div>
