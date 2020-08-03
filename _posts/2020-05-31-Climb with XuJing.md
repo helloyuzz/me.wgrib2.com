@@ -2,7 +2,7 @@
 title: '和友人登青城山'
 ---
  
-## 和友人登青城山，沿途随拍
+&nbsp;&nbsp;微信消息：“哥，一起爬山吧”，“好啊，刚好有空”。———沿途随拍：
 <table>
     <tr>
         <td><img src="https://gitee.com/helloyuzz/sharepic/raw/master/IMG_7935.jpg" width="300px"></td>
