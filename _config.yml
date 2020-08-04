@@ -1,6 +1,6 @@
 # baseurl: "/shiori" # The subpath of your site. Use "" if you're hosting a blog at the root level.
 url: "https://hi.1tyu.com" # the base hostname & protocol for your site
-title: "Frontpage"
+title: "hi.1tyu.com"
 
 # This is used by feed.xml. Uncomment if you want to use it.
 # description: "..."
