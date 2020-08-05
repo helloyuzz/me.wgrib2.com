@@ -18,7 +18,7 @@ title: '和友人登青城山'
     </tr>
     <tr>
         <td><img src="https://gitee.com/helloyuzz/sharepic/raw/master/IMG_7940.jpg" width="300px"></td>
-        <td></td>
+        <td><img src="https://gitee.com/helloyuzz/sharepic/raw/master/xujing.png" width="300px" style="border:1px solid #cccccc"/></td>
     </tr>
 </table>
 
