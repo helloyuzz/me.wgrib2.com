@@ -5,6 +5,7 @@ title: '常用的物联网ioT协议'
  - [x] 一类是传输协议
  - [x] 一类是通信协议。
 
+![](https://gitee.com/helloyuzz/sharepic/raw/master/iot.png)
 传输协议一般负责子网内设备间的组网及通信；
 通信协议则主要是运行在传统互联网TCP/IP协议之上的设备通讯协议，负责设备通过互联网进行数据交换及通信。
 
