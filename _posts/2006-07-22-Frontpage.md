@@ -60,3 +60,6 @@ bundle install
 [x] Run Application
 bundle exec jekyll serve
 ```
+
+
+<a href="https://www.webfx.com/tools/emoji-cheat-sheet/" target="_blank">Emojo参考</a> :point_right:
