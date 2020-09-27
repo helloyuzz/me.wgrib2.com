@@ -24,6 +24,7 @@ Categories
         H-->H1(Fishing)
 </div>
 
+  
 2.Setup
 
 ```Ruby
@@ -36,3 +37,26 @@ Categories
     bundle exec jekyll serve
 
 ```  
+参考步骤：  
+```
+[x] RubyInstaller
+https://rubyinstaller.org/downloads/
+
+[x] Jekyll
+gem install jekyll bundler
+jekyll -v
+
+[x] gem sources
+gem -v
+
+gem sources --add https://gems.ruby-china.com/
+gem sources --remove https://rubygems.org/
+
+gem sources -l
+
+[x] Install gems - 国内ruby-china.com镜像服务器
+bundle install
+
+[x] Run Application
+bundle exec jekyll serve
+```
