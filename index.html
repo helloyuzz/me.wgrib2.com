@@ -3,10 +3,11 @@
 
 {% for post in site.posts limit:site.data.theme.num_home_posts %}
 <div class="post-header-home">
-  <h1 class="post-title-home">
+  <h2 class="post-title-home">
     <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
-  </h1>
-</div><!--excerpt-->
+  </h2>
+</div>
+<!--excerpt-->
 <div class="post-excerpt-home">
   {{ post.content }}
   <!-- <p class="text-right"><a href="{{ post.url | prepend:site.baseurl }}">阅读 &rarr;</a></p> -->
@@ -15,5 +16,6 @@
 {% endfor %}
 <hr>
 <div class="home-read-more">
-  <a href="{{ "/archive" | prepend:site.baseurl }}" class="btn btn-primary btn-block btn-lg">View All {{ site.posts | size }} Articles →</a>
+  <a href="{{ "/archive" | prepend:site.baseurl }}" class="btn btn-primary btn-block btn-lg">View All
+    {{ site.posts | size }} Articles →</a>
 </div>
