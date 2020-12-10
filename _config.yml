@@ -4,7 +4,7 @@ title: "hi.1tyu.com"
 
 # This is used by feed.xml. Uncomment if you want to use it.
 # description: "..."
-
+# paginate: 5
 gems:
   - jemoji
 exclude:
