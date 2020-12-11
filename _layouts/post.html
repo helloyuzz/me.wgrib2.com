@@ -17,7 +17,7 @@ layout: default
     <div class="post-navs row">
       <div class="col-md-6 post-nav">
         <h3 class="section-header">
-          上一篇 Newer 
+          下一篇 Newer 
         </h3>
         {% if page.next.next.next.next %}
         <h3 class="post-title-link"><span style="margin-right:3px;color:rgb(13, 175, 98)">{{ page.next.next.next.next.date | date: "%y/%m-%d" }}</span><a href="{{ page.next.next.next.next.url | prepend:site.baseurl }}">{{ page.next.next.next.next.title }}</a></h3>
@@ -37,7 +37,7 @@ layout: default
           
         <div class="col-md-6 post-nav">
           <h3 class="section-header">
-            下一篇 Older
+            上一篇 Older
             <span class="text-muted"> &middot; </span>
           </h3>
           {% if page.previous %}
