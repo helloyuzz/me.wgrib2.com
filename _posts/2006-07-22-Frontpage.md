@@ -1,8 +1,8 @@
 ---
-title: 'Jekyllrb Frontpage'
+title: '迁移至Jekyllrb Frontpage'
 ---
    
-从微软博客迁移至本站Jekyllrb，起码免费了，写了很多，但迁移的时候不知道怎么删了，哎~~很可惜，真的是写了好多好多的东西啊！
+从微软博客迁移至本站Jekyllrb，免费了，只是可惜之前写了很多的内容，但迁移的时候不知道怎么删了，哎~~很可惜，真的是写了好多好多的东西啊！
 
 1、Jekyll Frontpage  
 ```
