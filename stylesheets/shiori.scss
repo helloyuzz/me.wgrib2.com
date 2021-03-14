@@ -177,6 +177,10 @@ h3 {
   }
 }
 
+div.post-content{
+  font: size 1.75rem !important;
+}
+
 @media(max-width: $screen-xs-max) {
   .navbar-header {
     text-align: center;
