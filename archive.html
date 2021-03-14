@@ -20,8 +20,6 @@ permalink: "archive/index.html"
         <tr>
           <th scope="col">#</th>
           <th scope="col">Objective</th>
-          <th scope="col">Aporia</th>
-          <th scope="col">Efforts</th>
         </tr>
       </thead>
       <tbody>
@@ -29,8 +27,6 @@ permalink: "archive/index.html"
       <tr>
         <th class="col-md-3" scope="row">{{ post.date | date:"%Y-%m-%d" }}</th>
         <td><a href="{{ post.url | prepend:site.baseurl}}" class="post-title-archive">{{ post.title }}</a></td>
-        <td class="col-md-2">{{post.Aporia}}</td>
-        <td class="col-md-2">{{post.Efforts}}</td>
       </tr>
       {% if post.frontpage == 'true' %}
         </tbody>
