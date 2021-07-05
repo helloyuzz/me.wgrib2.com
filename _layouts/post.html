@@ -3,14 +3,22 @@ layout: default
 ---
 
 <div class="post-header">
-  <h2 class="post-title-main">{{ page.title }}</h2>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item"><a href="/archive/">Library</a></li>
+      <li class="breadcrumb-item active" aria-current="page">  {{ page.title }}</li>
+    </ol>
+  </nav>
+
   {% include post-header.html %}
 </div>
-<div class="post-content">
+<div class="post-content" style="text-indent: 16px;">
   {{ content }}
+  <p class="text-muted"> {{ page.date | date:"%Y-%m-%d" }} 撰写</p>
 </div>
 <div class="post-footer">
-  {% include post-footer.html %}
+  {% include post-footer.html %}  
 </div>
 {% if site.data.theme.show_post_navs %}
   <!-- { % if page.previous or page.next % } -->
