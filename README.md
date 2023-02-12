@@ -1,6 +1,7 @@
 ## :earth_africa:Homepage url： 
+# 嘿容易
 ```
-https://hi.1tyu.com
+https://heyeasy.cn
 ```
 
 

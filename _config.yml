@@ -1,6 +1,10 @@
+# @Author: Your name
+# @Date:   2023-02-11 12:48:30
+# @Last Modified by:   Your name
+# @Last Modified time: 2023-02-12 09:52:21
 # baseurl: "/shiori" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "https://hi.1tyu.com" # the base hostname & protocol for your site
-title: "hi.1tyu.com"
+url: "https://heyeasy.cn" # the base hostname & protocol for your site
+title: "嘿容易！"
 
 # This is used by feed.xml. Uncomment if you want to use it.
 # description: "..."
