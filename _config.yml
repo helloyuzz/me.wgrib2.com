@@ -1,7 +1,7 @@
 # @Author: Your name
 # @Date:   2023-02-15 16:14:02
 # @Last Modified by:   Your name
-# @Last Modified time: 2023-02-16 14:51:32
+# @Last Modified time: 2023-02-16 14:55:19
 title: 嘿容易！
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -15,7 +15,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: 老余 # add your name
 heyeasy: heyeasy.cn
-author-img: IMG_2570.JPG # add your photo
+author-img: img_yu.jpg # add your photo
 about-author: 喜欢不时的抬头仰望天空，因为——我的心在那里！ # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
