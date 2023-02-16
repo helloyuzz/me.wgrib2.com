@@ -1,33 +1,43 @@
 # @Author: Your name
-# @Date:   2023-02-11 12:48:30
+# @Date:   2023-02-15 16:14:02
 # @Last Modified by:   Your name
-# @Last Modified time: 2023-02-12 09:52:21
-# baseurl: "/shiori" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "https://heyeasy.cn" # the base hostname & protocol for your site
-title: "嘿容易！"
+# @Last Modified time: 2023-02-16 14:26:11
+title: 嘿容易！
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
 
-# This is used by feed.xml. Uncomment if you want to use it.
-# description: "..."
-# paginate: 5
-gems:
+# Author Settings
+author: 老余 # add your name
+heyeasy: heyeasy.cn
+author-img: IMG_2570.jpg # add your photo
+about-author: 喜欢不时的抬头仰望天空，因为——我的心在那里！ # add description
+social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github:  # add your Github handle
+social-linkedin: # add your Linkedin handle
+social-email: yusais_life@qq.com # add your Email address
+copyright: 嘿容易！
+
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
   - jemoji
-exclude:
-  - "README.md"
-  - "CHANGELOG.md"
-  - "CNAME"
-  - "Gemfile"
-  - "Gemfile.lock"
-permalink: :title
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
