@@ -1,7 +1,7 @@
 ---
 title: 'Jekyllrb Blog'
 frontpage: 'true'
-publish: false
+published: false
 ---
    
 一直有写博客和日记的习惯，偶然间发现了Jekyllrb，静态的博客，也是免费的，有空的时候还是记录一下之间的日常经历和心情变化，高兴的不高兴的，都是书写真实的自己。
