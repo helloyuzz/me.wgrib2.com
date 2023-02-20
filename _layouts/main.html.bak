@@ -15,33 +15,14 @@ layout: default
   <footer>
     <section class="contact">
       <h3 class="contact-title">Contact me</h3>
-	  <span><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>{{site.social-email}}<a href="{{site.social-email}}" target="_blank"><i class="fa fa-envelope-o"></i></a></span>
-<!--       <UL>
-        {% IF SITE.SOCIAL-TWITTER %}
-          <LI></LI>
-        {% ELSE %}
-          <LI><A HREF="HTTPS://TWITTER.COM/ARTEMSHELUDKO_" TARGET="_BLANK"><I CLASS="FA FA-TWITTER" ARIA-HIDDEN="TRUE"></I></A></LI>
-        {% ENDIF %}
-        {% IF SITE.SOCIAL-FACEBOOK %}
-          <LI><A HREF="HTTPS://FACEBOOK.COM/{{ SITE.SOCIAL-FACEBOOK }}" TARGET="_BLANK"><I CLASS="FA FA-FACEBOOK" ARIA-HIDDEN="TRUE"></I></A></LI>
-        {% ELSE %}
-          <LI><A HREF="HTTPS://FACEBOOK.COM/" TARGET="_BLANK"><I CLASS="FA FA-FACEBOOK" ARIA-HIDDEN="TRUE"></I></A></LI>
-        {% ENDIF %}
-        {% IF SITE.SOCIAL-GITHUB %}
-          <LI CLASS="GITHUB"><A HREF="HTTP://GITHUB.COM/{{SITE.SOCIAL-GITHUB}}" TARGET="_BLANK"><I CLASS="FA FA-GITHUB"></I></A></LI>
-        {% ELSE %}
-          <LI CLASS="GITHUB"><A HREF="HTTP://GITHUB.COM/" TARGET="_BLANK"><I CLASS="FA FA-GITHUB" ARIA-HIDDEN="TRUE"></I></A></LI>
-        {% ENDIF %}
-        {% IF SITE.SOCIAL-LINKEDIN %}
-          <LI CLASS="LINKEDIN"><A HREF="HTTPS://IN.LINKEDIN.COM/IN/{{SITE.SOCIAL-LINKEDIN}}" TARGET="_BLANK"><I CLASS="FA FA-LINKEDIN"></I></A></LI>
-        {% ELSE %}
-          <LI CLASS="LINKEDIN"><A HREF="HTTPS://IN.LINKEDIN.COM/" TARGET="_BLANK"><I CLASS="FA FA-LINKEDIN" ARIA-HIDDEN="TRUE"></I></A></LI>
-        {% ENDIF %}
-        		<LI CLASS="EMAIL"></LI>
-        {% IF SITE.SOCIAL-EMAIL %}<LI CLASS="EMAIL"></LI>
-        {% ELSE %}
-          <LI CLASS="EMAIL"><A HREF="MAILTO:EXAMPLE.DAVID@BLOG.COM"><I CLASS="FA FA-ENVELOPE-O" ARIA-HIDDEN="TRUE"></I>{{SITE.SOCIAL-EMAIL}}</A></LI>
-        {% ENDIF %} -->
+      <ul>
+        {% if site.social-twitter %}
+          <li><a href="{{site.heynice-url}}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        {% else %}
+          <li><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        {% endif %}
+		<li><a style="text-decoration:none;" href="{{site.heynice-url}}" target="_blank">{{site.heynice-title}}</a>
+        <li class="email"><a href="{{site.heynice-url}}" target="_blank"><i class="fa fa-envelope-o"></i></a></li>       
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">
