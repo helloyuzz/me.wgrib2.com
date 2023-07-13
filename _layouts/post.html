@@ -2,22 +2,17 @@
 <html lang="{{ page.lang | default: site.lang | default: " en" }}">
 {% include head.html %}
 
-<body class="pt-3">
-  <div class="container-fluid">
+<body>
+  <div class="container-fluid p-0">
     {% include top.html %}
     <div class="row mt-1 p-0 m-0">
       <div class="col-2 p-0 m-0">
-        <ul class="list-group rounded-0">
-          {%- for post in site.posts -%}
-          <li class="list-group-item list-group-item-action p-1"><a class="post-link"
-              href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> <span class="badge text-bg-success rounded-1">{{ post.date | date: "%m/%d/%Y" }}</span></li>
-          {%- endfor -%}
-        </ul>
+        {% include articles.html%}
       </div>
-      <div class="col bg-light p-3 m-0 ms-2">
+      <div class="col bg-light p-3 m-0 ms-2 pt-2">
         <h3>{{ page.title }}</h3>
         {{ page.date | date: "%Y-%m-%d %H:%M" }}
-        <hr>
+        <hr class="mt-1 mb-1">
         <div class="">
           {{ content }}
         </div>

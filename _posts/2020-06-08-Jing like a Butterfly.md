@@ -1,5 +1,6 @@
 ---
 title: '火车不能推，蝴蝶不去追！'
+layout: post
 published: false
 ---
  

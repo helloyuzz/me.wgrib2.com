@@ -1,6 +1,7 @@
 ---
 title: '道德经 —《摘抄》'
 published: false
+layout: post
 ---
 
 持而盈之；

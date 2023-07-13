@@ -1,6 +1,7 @@
 ---
 title: '常用的物联网ioT协议'
 published: false
+layout: post
 ---
  在物联网协议中，我们一般分为两大类：
  - [x] 一类是传输协议
