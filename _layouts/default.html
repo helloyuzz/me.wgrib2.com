@@ -1,26 +1,55 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en" }}" class="h-100">
 {% include head.html %}
 
-<body>
+<body class="h-100">
+  <table width="100%" height="100%">
+    <tr style="height:30px;">
+      <td colspan="2" class="text-center">
+        {% include top.html %}
+      </td>
+    </tr>
+    <tr>
+     <td width="20%"> 
+      <div class=" h-100 overflow-scroll">
+        {% for post in site.posts %}
+        <!-- reversed -->
+        <a class="post-link btn btn-light w-100 mb-1 rounded-0" href="{{ post.url | relative_url }}" target="htmlcontent">
+           {{ post.title | escape }} <span>{{ post.date | date: "%Y-%m-%d" }}</span></a>
+          {% endfor %}
+        </div>
+      </td>
+      <td>
+        <iframe class="h-100 w-100" id="htmlcontent" name="htmlcontent">
+
+        </iframe>
+      </td>
+    </tr>
+    <tr style="height:16px;">
+      <td colspan="2" class="text-center">
+        {%- include footer.html -%}
+      </td>
+    </tr>
+  </table>
   <div class="container-fluid p-0">
-    {% include top.html %}
     <div class="row mt-1 p-0 m-0">
       <div class="col-2 p-0 m-0">
-        {% include articles.html%}
+        <!-- { % include articles.html% } -->
       </div>
-      <div class="col bg-light p-3 m-0 ms-2">
+      <div class="col border-1">
+
+      </div>
+      <!-- <div class="col bg-light p-3 m-0 ms-2">
         <h3><img src="/favicon.ico" style="height: 18px;"> {{ site.title }}</h3>
         {{ page.date | date: "%Y-%m-%d %H:%M" }}
         <hr>
         <div class="">
           {{ site.description }}
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
   </div>
-  {%- include footer.html -%}
   {% include script.html %}
 </body>
 

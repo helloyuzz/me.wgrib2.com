@@ -1,5 +1,6 @@
 
-  {% for post in site.posts reversed %}
+  {% for post in site.posts  %}
+  <!-- reversed -->
   <div class="row p-0 m-0">
     <div class="col ps-0">
       <a class="post-link" href="{{ post.url | relative_url }}"><span class="text-secondary">{{ post.date | date: "%Y/%m/%d" }}</span> {{ post.title | escape }}</a>

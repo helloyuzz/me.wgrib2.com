@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: " en" }}">
-{% include head.html %}
+<!-- { % include head.html % } -->
 
 <body>
   <div class="container-fluid p-0">
-    {% include top.html %}
+    <!-- { % include top.html % } -->
     <div class="row mt-1 p-0 m-0">
-      <div class="col-2 p-0 m-0">
-        {% include articles.html%}
+      <h3>{{ page.date | date: "%Y-%m-%d %H:%M" }} {{ page.title }}</h3>      
+      <hr class="mt-1 mb-1">
+      <div class="">
+        {{ content }}
       </div>
+    </div>
+      <!-- <div class="col-2 p-0 m-0">
+        { % include articles.html % }
+      </div> - - >
       <div class="col bg-light p-3 m-0 ms-2 pt-2">
-        <h3>{{ page.title }}</h3>
-        {{ page.date | date: "%Y-%m-%d %H:%M" }}
-        <hr class="mt-1 mb-1">
-        <div class="">
-          {{ content }}
-        </div>
       </div>
     </div>
   </div>
-  </div>
-  {%- include footer.html -%}
+  < !- - { %- include footer.html -% } -->
   {% include script.html %}
 </body>
 
